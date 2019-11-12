@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -e # exit immediately if a command exists with non-zero status
-echo $@
 
 echo 'Starting entrypoint...'
 echo "Running job: ${1}" # gets first argument
