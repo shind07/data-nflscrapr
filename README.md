@@ -1,6 +1,6 @@
 # nflscrapr Docker Container API
 
-This repo builds the image for a Docker Container with nflscrapr installed and ready to use.
+This repo builds the image for a Docker Container with [nflscrapr](https://github.com/maksimhorowitz/nflscrapR) installed and ready to use.
 
 The `/scripts` directory acts as a pseudo-API. A script can be execued by calling the target script and passing arguments to the container's `CMD` at runtime.
 
